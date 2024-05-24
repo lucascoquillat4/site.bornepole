@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Borne d'accueuil</title>
+</head>
+<body>
+	<div class="sidenav">
+		<h2>Borne d'accueil<hr/></h2>
+		   <a href="index.html">• Accueil</a>
+			<a href="PréBac.html">• Zone Pré-Bac</a>
+			<a href="fablab.html">• Fablab</a>
+			<a style="padding-bottom: 15px;"></style><hr/></a>
+			<div class="Retour"><A href="javascript:history.back()">Retour</A></div>
+
+	</div>	
+		<h1><strong><U>La section Post-Bac</U></strong></h1>	
+		<aside>
+				<img src="logo.png">
+		</aside>
+		<marquee scrolldelay="40" scrollamount="10" behavior="slide" margin-left="" style="margin-left: 660px;">
+			<b>Les filières post-bac disponibles au pôle technologique :</b>
+		</marquee>
+			<button onclick="window.location.href = 'ET.html';"><strong>BTS ET</strong></button></br>
+			<button onclick="window.location.href = 'CRSA.html';"><strong>BTS CRSA</strong></button>
+
+			<a class="couleur" href="#" onclick="show('popup2')"><strong></strong></a></div>
+
+		<div class="popup" id="popup2">
+			 <p>Section Post-Bac du pôle</p>
+				<p>test / texte1 et texte2</p>
+			<p>description</p>
+			  <a class="couleur" href="PostBac.html" onclick="hide('popup2')"><strong>Fermer</strong></a>
+		</div>
+		<script type="text/javascript">
+			$ = function(id) {
+				  return document.getElementById(id); }
+
+				var show = function(id) {
+				$(id).style.display ='block'; }
+
+				var hide = function(id) {
+				$(id).style.display ='none'; }
+		</script>
+		</br></br><div class="description">
+		</br></br></div>
+	</body>
+</html>

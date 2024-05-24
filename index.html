@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<title>Borne d'acceuil</title>
+	</head>
+	<body>
+		<div class="sidenav">
+			<h2><strong>Borne d'accueil</strong><hr/></h2>
+				<a href="PréBac.html">• Zone Pré-Bac</a>
+				<a href="PostBac.html">• Zone Post-Bac</a>
+				<a href="fablab.html">• Fablab</a>
+				<a style="padding-bottom: 15px;"></style><hr/></a>
+				<div class="Retour"><A href="javascript:history.back()">Retour</A></div>
+		</div>
+			<h1><strong><U>Présentation de la borne</U></strong></h1>
+			<aside>
+				<img src="logo.png">
+		</aside>
+			<div class="description"></br>Cette borne d'accueil ainsi que la maquette sont un projet mené 
+				<a class="couleur" href="#" onclick="show('popup2')"><strong>par les terminales spécialité SIN.</strong></a></div>
+
+			<div class="popup" id="popup2">
+				 <p>Terminale TT1 Spé SIN</p>
+				  <p>Par Anthony Emile-Guillot et Lucas Coquillat</p>
+				<p></p>
+				  <a class="couleur" href="index.html" onclick="hide('popup2')"><strong>Fermer</strong></a>
+			</div>
+			<script type="text/javascript">
+				$ = function(id) {
+					  return document.getElementById(id); }
+
+					var show = function(id) {
+					$(id).style.display ='block'; }
+
+					var hide = function(id) {
+					$(id).style.display ='none'; }
+			</script>
+			</br><div class="description"> Cette borne ainsi que cette maquette vous aideront à vous repérer dans le pôle technologique.
+			</br>Cette écran est tactile, vous n'avez qu'à cliquer sur une des 2 sections (Pré-Bac ou Post-Bac) du menu qui se trouve à gauche,
+				 ces sections contiennent tout ce que vous devez savoir sur cet endroit.
+			</br><element class="color">-----</element>
+			</br>Vous disposez également d'une maquette, pour l'utiliser il vous suffit, pour cela, de sélectionner l'endroit vers lequel
+				vous souhaitez vous diriger et la maquette vous indiquera le chemin à emprunter via un signal lumineux.</div>
+	</body>
+</html>

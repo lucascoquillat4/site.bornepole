@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Borne d'accueuil</title>
+</head>
+<body>
+	<div class="sidenav">
+		<h2><strong>Borne d'accueil</strong><hr/></h2>
+			<a href="index.html">• Accueil</a>
+			<a href="PostBac.html">• Zone Post-Bac</a>
+			<a href="PréBac.html">• Zone Pré-Bac</a>
+			<a style="padding-bottom: 15px;"></style><hr/></a>
+            <div class="Retour"><A href="javascript:history.back()">Retour</A></div>
+	</div>	
+		<h1><strong><U>Le Fablab</U></strong></h1>	
+		<aside>
+				<img src="logo.png">
+		</aside>
+		<div class="descriptionautre" style="text-align: center;">
+					<element class="z"><strong>Le Fablab est un endroit où différentes sortes d'outils sont mis à sa disposition 
+                        des élèves et des professeurs du pôle :</strong></br>
+						<element class="color">-----</element>- <I>Une découpeuse laser GammaTec,</I><br>
+						<element class="color">-----</element>- <I>2 imprimantes 3D Ultimaker,</I><br>
+                        <element class="color">-----</element>- <I>1 imprimante 3D Raise3D,</I><br>
+                        <element class="color">-----</element>- <I>1 imprimante 3D Epsilon w50,</I><br>
+                        <element class="color">-----</element>- <I>1 perceuse.</I><br></element></div>
+
+                    </br><div class="image"><img src="fablab.jpg" 
+                        style="display: block; margin-left: auto; margin-right: 100px; width: 1000px;"></div>
+
+			<a class="couleur" href="#" onclick="show('popup2')"><strong><!--hyperlink text--></strong></a></div>
+
+		<div class="popup" id="popup2">
+			 <p>Section Pré-Bac du pôle</p>
+			 <p>test / texte1 et texte2</p>
+			 <p>description</p>
+			  <a class="couleur" href="PréBac.html" onclick="hide('popup2')"><strong>Fermer</strong></a>
+		</div>
+		<script type="text/javascript">
+			$ = function(id) {
+				  return document.getElementById(id); }
+
+				var show = function(id) {
+				$(id).style.display ='block'; }
+
+				var hide = function(id) {
+				$(id).style.display ='none'; }
+		</script>
+		</br></br><div class="description">
+		</br></br></div>
+	</body>
+</html>
